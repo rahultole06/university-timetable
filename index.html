@@ -1,0 +1,69 @@
+<!--
+ * CSCI 1170: Introduction to Web Design and Development
+ * Fall 2023
+ *
+ * This markup file contains the starting code for Assignment 4.
+ * 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A4: Data from JSON Data Source</title>
+
+	<!-- link to the main CSS file -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<header class="pg-banner" id="pg-header">
+		<!-- Logo made by Rahul Tole re-used from Assignment 3 -->
+		<a href="#"><img src="img/avengers_academy_logo.jpg" alt="University Logo"></a>
+	</header>
+
+	<nav class="primary-nav" id="main-nav">
+		<ul>
+			<li class="navlink"><a href="#">Home</a></li>
+			<li class="navlink"><a href="#course-list">Timetable</a></li>
+			<li class="navlink"><a href="files.html">Files</a></li>
+		</ul>
+	</nav>
+
+	<main class="pg-main-content" id="pg-main">
+		<h1>University Timetable</h1>
+		
+		<section class="course-list" id="course-list">
+			<h2>Course List</h2>
+			<p>You can use the "Code" section to filter results.</p>
+
+			<form method="get">
+				<label for="search-input">Filter: </label>
+				<input type="text" id="search-input" placeholder="Enter filter term">
+				<button type="button" id="filter-button">Filter Results</button>
+			</form>
+
+		</section>
+	</main>
+
+	<footer class="pg-footer" id="pg-contentdesc">
+		<!-- Only used div for layout -->
+		<div class="ftr-lnk">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#course-list">Timetable</a></li>
+				<li><a href="#pg-header">Top of Page</a></li>
+			</ul>
+		</div>
+
+		<address class="address">
+			<P><strong>Avengers Academy</strong></P>
+			<P>ABC, XYZ City, JKL Country ASD 123</P>
+			<P>Phone Number: #-###-###-####</P>
+		</address>
+	</footer>
+	<script src="js/data-school.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

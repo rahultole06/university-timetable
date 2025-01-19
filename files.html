@@ -1,0 +1,80 @@
+<!--
+ * CSCI 1170: Introduction to Web Design and Development
+ * Fall 2023
+ *
+ * This markup file contains the starting code for Assignment 4.
+ * 
+ * Why this file?
+ * In this file, link to all the PDF files that you will generate in this assignment. 
+ * You can either include them as iFrames or just link to the files using anchor links.
+ * The files must be linked in the <main> element, with one section for each PDF file that you 
+ *  generated for this assignment.
+ * 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A4: Data from JSON Data Source</title>
+
+	<!-- link to the main CSS file -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<header class="pg-banner" id="pg-header">
+		<!-- Logo made by Rahul Tole re-used from Assignment 3 -->
+		<a href="#"><img src="img/avengers_academy_logo.jpg" alt="University Logo"></a>
+	</header>
+
+	<nav class="primary-nav" id="main-nav">
+		<ul>
+			<li class="navlink"><a href="index.html">Home</a></li>
+			<li class="navlink"><a href="#pg-main">Files</a></li>
+			<li class="navlink"><a href="#pg-contentdesc">Bottom of Page</a></li>
+		</ul>
+	</nav>
+
+	<main class="pg-main-content" id="pg-main">
+		<h1>Files: </h1>
+		<section class="pdf-files">
+			<h2>Wireframe</h2>
+			<iframe class="pdf-file" src="files/CSCI1170-A4-Wireframes.pdf" title="Wireframes"></iframe>
+		</section>
+		<section class="pdf-files">
+			<h2>Design Plan</h2>
+			<iframe class="pdf-file" src="files/CSCI1170-A4-DesignPlan.pdf" title="Wireframes"></iframe>
+		</section>
+		<section class="pdf-files">
+			<h2>Index</h2>
+			<iframe class="pdf-file" src="files/W3C-valid-index.pdf" title="Wireframes"></iframe>
+		</section>
+		<section class="pdf-files">
+			<h2>Files</h2>
+			<iframe class="pdf-file" src="files/W3C-valid-files.pdf" title="Wireframes"></iframe>
+		</section>
+		<section class="pdf-files">
+			<h2>Styles</h2>
+			<iframe class="pdf-file" src="files/W3C-valid-styles.pdf" title="Wireframes"></iframe>
+		</section>
+	</main>
+
+	<footer class="pg-footer" id="pg-contentdesc">
+		<div class="ftr-lnk">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#course-list">Timetable</a></li>
+				<li><a href="#pg-header">Top of Page</a></li>
+			</ul>
+		</div>
+
+		<address class="address">
+			<P><strong>Avengers Academy</strong></P>
+			<P>ABC, XYZ City, JKL Country ASD 123</P>
+			<P>Phone Number: #-###-###-####</P>
+		</address>
+	</footer>
+</body>
+</html>
